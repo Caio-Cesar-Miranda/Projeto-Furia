@@ -18,7 +18,7 @@ O bot responde aos seguintes comandos digitados pelo usuário:
 - JavaScript (sem frameworks)
 - Nenhum backend ou API externa
 
-
+## 🖥️ Tela Principal
 ![Tela Principal](img/TelaPrincipal.png)
 
 1. Clone o repositório:
