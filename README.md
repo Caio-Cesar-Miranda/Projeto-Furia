@@ -25,6 +25,6 @@ O bot responde aos seguintes comandos digitados pelo usuário:
 
 ```bash
 git clone https://github.com/seu-usuario/chatbot-furia.git
-cd chatbot-furia
+cd Projeto-Furia
 ```
 Desenvolvido por: Caio Cesar Miranda de Oliveira - UFRN/EAJ
