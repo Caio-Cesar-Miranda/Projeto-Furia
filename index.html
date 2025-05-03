@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FURIA Fan Chat</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col">
+  <!-- HEADER -->
+  <header class="flex items-center justify-center gap-4 py-6 bg-white text-black shadow-md">
+    <img src="assets/furia-logo2.png" alt="Logo da FURIA" class="h-12 w-12" />
+    <div class="text-center">
+      <h1 class="text-3xl font-bold"> FURIA Fan Chat </h1>
+      <p class="text-gray-700">Converse, descubra jogos e fique por dentro!</p>
+    </div>
+  </header>
+
+  
+  <main class="flex-1 flex flex-col items-center justify-start px-4 pt-8">
+    <div id="chat-box" class="w-full max-w-2xl bg-gray-800 rounded-lg p-4 mb-4 h-64 overflow-y-auto">
+      <p class="text-sm text-green-400">Digite um comando como <span class="text-cyan-400">/jogos</span>, <span class="text-cyan-400">/stats</span>, <span class="text-cyan-400">/falleN</span> <span class="text-cyan-400">/quiz</span></p>
+    </div>
+
+    <form id="chat-form" class="w-full max-w-2xl flex gap-2">
+      <input id="user-input" type="text" placeholder="Digite aqui..." class="bg-green-700 hover:bg-green-700 text-white px-4 py-2 rounded-md" />
+      <button type="submit" class="bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-md">Enviar</button>
+  </form>
+  
+  <div class="quick-commands flex gap-2 mt-2">
+      <button class="quick-btn bg-gray-600 hover:bg-gray-500 text-white px-3 py-1 rounded-md" data-command="/jogos">jogos</button>
+      <button class="quick-btn bg-gray-600 hover:bg-gray-500 text-white px-3 py-1 rounded-md" data-command="/stats">stats</button>
+      <button class="quick-btn bg-gray-600 hover:bg-gray-500 text-white px-3 py-1 rounded-md" data-command="/fallen">fallen</button>
+  </div>
+  </main>
+
+  <div class="chat-container" id="chat"></div>
+  <script src="script.js"></script>
+</body>
+</html>
