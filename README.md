@@ -15,8 +15,7 @@ O bot responde aos seguintes comandos digitados pelo usuário:
 
 - HTML5
 - CSS3
-- JavaScript (sem frameworks)
-- Nenhum backend ou API externa
+- JavaScript
 
 ## 🖥️ Tela Principal
 ![Tela Principal](img/TelaPrincipal.png)
